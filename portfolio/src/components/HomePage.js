@@ -15,18 +15,18 @@ class HomePage extends Component {
               </div>
               <div className="container--titles">
                 <div>
-                  <span>FULL </span>
-                  <span>STACK </span>
-                  <span>DEVELOPER</span>
+                  <span className="bl">FULL </span>
+                  <span className="manila">STACK </span>
+                  <span className="">DEVELOPER</span>
                 </div>
                 <div>
-                  <span>BIZ </span>
-                  <span>DEV </span>
-                  <span>ENTHUSIAST</span>
+                  <span className="">BIZ </span>
+                  <span className="bl">DEV </span>
+                  <span className="burg">ENTHUSIAST</span>
                 </div>
                 <div>
-                  <span>LANGUAGE </span>
-                  <span>LOVER</span>
+                  <span className="burg">LANGUAGE </span>
+                  <span className="manila">LOVER</span>
                 </div>
               </div>
             </div>
