@@ -11,13 +11,20 @@ class App extends React.Component {
     currentTab: "home"
   };
 
-  switchTab = e => {
-    let tab = e.target.name;
-    console.log(e);
+  switchTab = event => {
+    event.persist();
+    let page = event.target.attributes[0].nodeValue;
+
     this.setState({
-      currentTab: tab
+      currentTab: page
     });
-    this.parallax.scrollTo(1);
+
+    let pageIndices = {
+      about: 1,
+      projects: 2,
+      home: 0
+    };
+    this.parallax.scrollTo(pageIndices[page]);
   };
   render() {
     return (
@@ -47,19 +54,33 @@ class App extends React.Component {
                     individuals therein. I have a B.A. in International
                     Management and, prior to programming, worked in
                     transnational companies in both business development and
-                    adminstrative capacities. I also speak Chinese!
+                    adminstrative capacities. I also speak Mandarin
+                    Chinese(真的!)! <br />
+                    <br />
+                    In the Autumn of 2018 I decided to chase my dream of
+                    becoming a software developer, and took the leap by joining
+                    <a href="http://lambdaschool.com" target="_blank">
+                      {" "}
+                      Lambda School
+                    </a>
+                    . After successfully completing the program(!), I applied to
+                    become a part-time Project Manager (a student mentor/TA
+                    role) to work with a small group of students as they study
+                    algorithms and computer architecture with the aid of Python
+                    and C! It's been an amazing journey.
                     <br />
                     <br />
                     If you're reading this, then there's a high likelihood
-                    (higher than if you weren't, at least) that there's some
-                    work we should be doing together! That's quite a great
-                    thing, eh? (considering the endless amounts of work there is
-                    to be done out in this vast, crazily awesome world of ours).{" "}
+                    (higher than if you weren't, at least🤭) that there's some
+                    work we could be doing together! I'm currently available for
+                    both short-term contracts and full-time work, and am excited
+                    to take all kinds of projects; from building small scale
+                    applications for individuals or SMEs, to working on and
+                    contributing to large scale codebases. <br />
+                    If my skills may be of service to your cause, I look forward
+                    to connecting. <br />
                     <br />
-                    So! I'm glad you've connected with me, and I hope I may be
-                    of service to your cause. <br />
-                    <br />
-                    Feel free to reach out to me about anything!
+                    Thanks for visiting!
                   </div>
                 </div>
 

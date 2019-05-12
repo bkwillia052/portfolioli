@@ -149,6 +149,11 @@ nav {
   flex-direction: column;
 }
 
+i,
+a {
+  cursor: pointer;
+}
+
 .glitch {
   color: white;
   font-size: 150px;
@@ -308,4 +313,24 @@ nav {
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+
+@media only screen and (max-width: 411px) {
+  .button {
+    font-size: 20px;
+  }
+  .last-name {
+    font-size: 80px;
+  }
+  .glitch {
+    font-size: 80px;
+  }
+  .glitch:after {
+  }
+  .glitch:before {
+  }
+  .container--titles {
+    width: 60%;
+    font-size: 16px;
+  }
 }

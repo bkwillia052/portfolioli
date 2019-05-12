@@ -35,6 +35,7 @@
   font-size: 20px;
   max-height: 400px;
   overflow-y: scroll;
+  padding-bottom: 10px;
 }
 
 .profile-pic {
@@ -42,6 +43,12 @@
   width: 45%;
   overflow: hidden;
   height: 550px;
+  border-left: 10px inset white;
+  border-top: 8px solid rgb(206, 84, 84);
+  border-style: groove;
+  border-bottom: 8px groove white;
+  border-right: 8px groove rgb(206, 84, 84);
+  border-bottom-left-radius: 125px;
 }
 
 .profile-pic > img {
@@ -62,4 +69,40 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.about-descr > a {
+  color: rgb(206, 84, 84);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 411px) {
+  .container--about-main {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: 100%;
+  }
+  .profile-pic {
+    width: 90%;
+    height: 35%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .profile-pic > img {
+    top: unset;
+  }
+  .container--about-descr {
+    width: 90%;
+    height: 46%;
+  }
+  .wavemoji > img {
+    height: auto;
+    width: 70px;
+  }
+  .hi {
+    font-size: 50px;
+  }
 }

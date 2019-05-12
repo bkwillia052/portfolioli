@@ -29,25 +29,30 @@ class Project extends Component {
                 this.state.hovering ? "display" : ""
               }`}
             >
-              <div className="proj-descr">{this.props.descr}</div>
+              {/* <div className="proj-descr">{this.props.descr}</div> */}
               <div className="visit">Click Now To Visit</div>
             </div>
           </div>
-          <div className="container--proj-name">
-            <div
-              className="proj-name"
-              onMouseOver={this.toggleHovering}
-              onMouseOut={this.toggleHovering}
-            >
-              <a href={`${this.props.url}`} target="_blank">
-                {this.props.name}
-              </a>
+          <div className="cpn">
+            <div className="container--proj-name">
+              <div
+                className="proj-name"
+                onMouseOver={this.toggleHovering}
+                onMouseOut={this.toggleHovering}
+              >
+                <a href={`${this.props.url}`} target="_blank">
+                  {this.props.name}
+                </a>
+              </div>
             </div>
+            <div className="click">^Click to Visit Site^</div>
           </div>
         </div>
 
         <div className="container--proj-role">
-          <div className="proj-role">{this.props.descr}</div>
+          <div className="proj-role" data-simplebar>
+            {this.props.descr}
+          </div>
         </div>
       </div>
     );

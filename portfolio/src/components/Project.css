@@ -22,8 +22,8 @@
 }
 .visit {
   text-align: center;
-  position: absolute;
-  bottom: 0;
+  position: relative;
+
   color: white;
   font-style: italic;
   font-size: 18px;
@@ -34,4 +34,5 @@
   text-decoration: none;
   text-decoration: unset;
   color: white;
+  cursor: pointer;
 }
