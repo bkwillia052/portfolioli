@@ -76,8 +76,7 @@ class App extends React.Component {
                     projects and companies. Feel free to reach out by email at{" "}
                     <span
                       style={{
-                        color: "rgb(206, 84, 84)",
-                        textShadow: "1px 1px 1px black",
+                        color: "black",
                         cursor: "pointer"
                       }}
                     >
