@@ -56,7 +56,7 @@ class HomePage extends Component {
                   </svg>
                 </i>
               </a>
-              <div className="icon-text">GITHUB</div>
+              {/* <div className="icon-text">GITHUB</div> */}
             </div>
             <div className="container--icon">
               <a
@@ -81,9 +81,9 @@ class HomePage extends Component {
                   </svg>
                 </i>
               </a>
-              <div className="icon-text">LINKEDIN</div>
+              {/* <div className="icon-text">LINKEDIN</div> */}
             </div>
-            <div className="container--icon">
+            {/* <div className="container--icon">
               <i class="fab fa-file">
                 <svg
                   aria-hidden="true"
@@ -102,7 +102,7 @@ class HomePage extends Component {
                 </svg>
               </i>
               <div className="icon-text">RESUME</div>
-            </div>
+            </div> */}
           </div>
           {/* <div className="page-links">
             <div className="about button">ABOUT</div>

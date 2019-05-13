@@ -43,10 +43,10 @@ class App extends React.Component {
             <div className="container--about">
               <div className="container--about-main">
                 <div className="container--about-descr">
-                  <div className="wavemoji">
+                  {/* <div className="wavemoji">
                     <img src={require("./assets/blobwave.png")} alt="" />{" "}
                     <span className="hi">Hi!</span>
-                  </div>
+                  </div> */}
                   <div className="about-descr">
                     I'm Brian, a Full Stack developer with a deep, ever-growing
                     interest in cloud technology, languages (both computer and
@@ -57,28 +57,33 @@ class App extends React.Component {
                     adminstrative capacities. I also speak Mandarin
                     Chinese(真的!)! <br />
                     <br />
-                    In the Autumn of 2018 I decided to chase my dream of
-                    becoming a software developer, and took the leap by joining
+                    In 2018, I took the next step to becoming a software
+                    developer by joining{" "}
                     <a href="http://lambdaschool.com" target="_blank">
                       {" "}
                       Lambda School
                     </a>
-                    . After successfully completing the program(!), I applied to
+                    , an innovative, immersive program with a project-based
+                    curriculum in software engineering and computer science.
+                    After successfully completing the program(!), I applied to
                     become a part-time Project Manager (a student mentor/TA
                     role) to work with a small group of students as they study
                     algorithms and computer architecture with the aid of Python
                     and C! It's been an amazing journey.
                     <br />
                     <br />
-                    If you're reading this, then there's a high likelihood
-                    (higher than if you weren't, at least🤭) that there's some
-                    work we could be doing together! I'm currently available for
-                    both short-term contracts and full-time work, and am excited
-                    to take any type of project; from building small scale
-                    applications for individuals or SMEs, to working on and
-                    contributing to large scale codebases. <br />
-                    If my skills may be of service to your cause, I look forward
-                    to connecting. <br />
+                    I'm always interested in learning more about innovative
+                    projects and companies. Feel free to reach out by email at{" "}
+                    <span
+                      style={{
+                        color: "rgb(206, 84, 84)",
+                        textShadow: "1px 1px 1px black",
+                        cursor: "pointer"
+                      }}
+                    >
+                      bkwillia052@gmail.com
+                    </span>{" "}
+                    if you'd like to chat! <br />
                     <br />
                     Thanks for visiting!
                   </div>

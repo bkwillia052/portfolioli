@@ -53,6 +53,7 @@
   display: flex;
   max-width: 495px;
   flex-direction: column;
+  margin: 0 10px;
   margin-bottom: 25px;
 }
 
@@ -101,6 +102,8 @@
 }
 
 .proj-role {
+  font-size: 19px;
+  font-weight: 400;
   text-align: center;
   color: white;
   width: 90%;
@@ -144,15 +147,15 @@
 }
 
 .green {
-  color: green;
+  color: white;
 }
 
 .orange {
-  color: orange;
+  color: rgb(247, 234, 193);
 }
 
 .purple {
-  color: purple;
+  color: #c7e9ff;
 }
 .click {
   display: none;

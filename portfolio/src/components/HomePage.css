@@ -81,7 +81,7 @@
 .sm-links {
   display: flex;
   width: 350px;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 15px;
 }
 
@@ -115,7 +115,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 18px;
-  font-size: 60px;
+  font-size: 50px;
   color: white;
   text-shadow: 1px 1px 1px black;
   cursor: pointer;
@@ -147,6 +147,7 @@ nav {
 .container--icon {
   display: flex;
   flex-direction: column;
+  margin: 0 15px;
 }
 
 i,
@@ -235,7 +236,7 @@ a {
   color: white;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim 2s infinite linear alternate-reverse;
+  /* animation: noise-anim 2s infinite linear alternate-reverse; */
 }
 
 @keyframes noise-anim-2 {
@@ -312,7 +313,7 @@ a {
   color: white;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim-2 3s infinite linear alternate-reverse;
+  /* animation: noise-anim-2 3s infinite linear alternate-reverse; */
 }
 
 @media only screen and (max-width: 411px) {
@@ -332,5 +333,19 @@ a {
   .container--titles {
     width: 60%;
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .glitch {
+    font-size: 110px;
+  }
+  .last-name {
+    font-size: 110px;
+  }
+
+  .container--titles {
+    font-size: 20px;
+    width: 100%;
   }
 }
