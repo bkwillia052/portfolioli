@@ -74,7 +74,7 @@ class App extends React.Component {
                     (higher than if you weren't, at least🤭) that there's some
                     work we could be doing together! I'm currently available for
                     both short-term contracts and full-time work, and am excited
-                    to take all kinds of projects; from building small scale
+                    to take any type of project; from building small scale
                     applications for individuals or SMEs, to working on and
                     contributing to large scale codebases. <br />
                     If my skills may be of service to your cause, I look forward
