@@ -54,10 +54,10 @@ class App extends React.Component {
                     individuals therein. I have a B.A. in International
                     Management and, prior to programming, worked in
                     transnational companies in both business development and
-                    adminstrative capacities. I also speak Mandarin
+                    administrative capacities. I also speak Mandarin
                     Chinese(真的!)! <br />
                     <br />
-                    In 2018, I took the next step to becoming a software
+                    In 2018, I took a definitive step towards becoming a software
                     developer by joining{" "}
                     <a href="http://lambdaschool.com" target="_blank">
                       {" "}
