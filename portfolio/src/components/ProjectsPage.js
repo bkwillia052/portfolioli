@@ -25,7 +25,7 @@ let projects = [
     descr: `PMC Advisors (in progress!) is a static website made with React that incorporates Formspree.io for email inquiries.`,
     stack: [tech.ReactJS, tech.FormSpree],
     imgSrc: require("../assets/pmc-sc.png"),
-    url: "http://www.pmc-demo.netlify.com",
+    url: "https://pmc-demo.netlify.com/",
     role: ""
   },
   {
@@ -33,7 +33,7 @@ let projects = [
     descr: `Mnemozen (in progress!) is an original language learning app that uses AWS Polly & spaced repetition to teach learners the top 1000 words of a given langauge at an accelerated pace.  `,
     stack: [tech.ReactJS, tech.AWSPolly, tech.AWSS3],
     imgSrc: require("../assets/mnemozen-sc.png"),
-    url: "http://www.mnemozen.netlify.com",
+    url: "https://mnemozen.netlify.com/",
     role: ""
   }
 ];
